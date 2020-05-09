@@ -24,10 +24,10 @@ body
 
 #szubienica
 {
-    float: left;
+    float: right;
     width: 450px;
-    text-align: center;
-    min-height: 50px;
+    text-align: right;
+    min-height: 40px;
 }
 
 #alfabet
@@ -35,5 +35,25 @@ body
     float: left;
     width: 450px;
     text-align: center;
-    min-height: 50px;
+    min-height: 40px;
+}
+
+.litera
+{
+    width: 30px;
+    height: 30px;
+    text-align:center;
+    padding: 5px; 
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    cursor: pointer;
+
+}
+
+.litera:hover
+{
+    background-color: #222222;
+    color:white;
+    border: 3px solid white;
 }
